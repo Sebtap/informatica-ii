@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//La compu simpre agrega un \0 al final de un string para 
+//saber que termina
+
 int main(int argc, char *argv[]) {
     if (argc < 2) {
         printf("Falta un numero como argumento.\n");
